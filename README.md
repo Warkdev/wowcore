@@ -12,4 +12,11 @@ Thanks a lot to developers for that projects !
 
 Currently there are no dependencies. You need `python3.5` to run this project.
 
+**Before running**
+
+Create databases from *DB/DB_List*. Then create tables from *DB/Fixtures*.
+
 **Running**
+
+Just go to the project root dir and run command from console `python3 Run.py`.
+Also be sure realmlist.wtf (in your wow-client dir) is equals to `set realmlist localhost`.

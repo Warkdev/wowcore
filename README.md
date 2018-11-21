@@ -20,3 +20,7 @@ Create databases from *DB/DB_List*. Then create tables from *DB/Fixtures*.
 
 Just go to the project root dir and run command from console `python3 Run.py`.
 Also be sure realmlist.wtf (in your wow-client dir) is equals to `set realmlist localhost`.
+
+**License**
+
+You can fork this project or use current according to your needs (please, add the link to my repo, this will be very nice). Also you can be the contributor, if you want to help developing.

@@ -8,6 +8,8 @@ Debugging with wireshark shows that client stucks after SMSG_AUTH_RESPONSE.
 I'm using [DuratorEmu](https://github.com/Dece/DuratorEmu), [pywowd](https://github.com/fotcorn/pywowd) as Python examples.
 Thanks a lot to developers for that projects ! 
 
+Also thanks to community of ownedcore.com help in debugging.
+
 **Dependencies**
 
 Currently there are no dependencies. You need `python3.5` to run this project.

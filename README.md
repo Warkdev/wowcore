@@ -23,4 +23,6 @@ Also be sure realmlist.wtf (in your wow-client dir) is equals to `set realmlist 
 
 **License**
 
-You can fork this project or use current according to your needs (please, add the link to my repo, this will be very nice). Also you can be the contributor, if you want to help developing.
+You can fork this project or use current according to your needs (please, add the link to my repo, this will be very nice). 
+
+Also you can be the contributor, if you want to help developing.

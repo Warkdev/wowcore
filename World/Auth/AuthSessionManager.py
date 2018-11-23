@@ -44,6 +44,11 @@ class AuthSessionManager(object):
             self._load_session_key()
             self._generate_server_hash()
 
+            # NEXT PACKETS WILL BE ENCRYPTED
+            self._setup_encryption()
+
+            # SMSG_AUTH_RESPONSE encrypted, but client sends nothing and stucks on Connected
+
             if self.server_hash != self.client_hash:
                 Logger.error('[Auth Session Manager]: Server hash is differs from client hash')
                 return None
@@ -51,9 +56,6 @@ class AuthSessionManager(object):
                 # SMSG_AUTH_RESPONSE
                 response = self._get_auth_response()
                 self.writer.write(response)
-
-                # NEXT PACKETS WILL BE ENCRYPTED
-                self._setup_encryption()
 
                 return response
         except TimeoutError:

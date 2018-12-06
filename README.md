@@ -1,9 +1,10 @@
 **About**
 
-This is simple wow emulator for wow 2.4.3, developing from scratch for Linux.
+This is simple wow emulator for wow 2.4.3, developing from scratch for Linux (Mint, Cinnamon, 18.3 Sylvia).
 
-Currently not works correctly (Mint, Cinnamon, 18.3 Sylvia), because client stucks on 'Connected'.
+Currently not works correctly, because client stucks on 'Connected'.
 Debugging with wireshark shows that client stucks after SMSG_AUTH_RESPONSE.
+Reason found: incorrect packet encrypting.
 
 I'm using [MaNGOS-TBC](https://github.com/cmangos/mangos-tbc) and [DuratorEmu](https://github.com/Dece/DuratorEmu), [pywowd](https://github.com/fotcorn/pywowd) as Python examples.
 Thanks a lot to developers for that projects ! 
